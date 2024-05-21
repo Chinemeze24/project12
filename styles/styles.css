@@ -1,0 +1,528 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('/assets/images/banner-bg\ \(2\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+ul {
+    display: none;
+    align-items: center;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: greenyellow;
+}
+
+
+
+.flex-container>div {
+    margin: 5px auto;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.logo {
+    display: flex;
+    width: 100px;
+}
+aside{
+    display: flex;
+    align-items: center;
+}
+
+.button1 {
+    background-color: greenyellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 25px;
+    font: 15px bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.button2 {
+    background-color: white;
+    padding:1px 10px;
+    border-radius: 5px;
+    font: 25px;
+    border: none;
+}
+
+
+
+.logo2 {
+    display: flex;
+    width: 1900px;
+    height: 530px;
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(50px,5vw,2rem);
+    font-weight: bold;
+    text-align: left;
+}
+
+h4 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+article{
+    display: block;
+    margin: auto;
+}
+
+.freelance {
+    border-bottom: 1px solid white;
+    width: fit-content;
+    margin-bottom: 50px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: end;
+    padding: 0 20px;
+}
+
+.hero-image {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.hero-section>article,
+.hero-image-container {
+    width: 50%;
+}
+.scroll-container{
+    background-color: greenyellow;
+    padding: 10px ;
+    overflow: hidden;
+}
+.scroll{
+    display: flex;
+    animation: scroll forwards 10s linear infinite;
+}
+
+@keyframes scroll {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+.logo4 {
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 100%;
+    float: right;
+    height: 500px;
+}
+
+
+
+.center img {
+    padding: 70px 0;
+    display: block;
+    margin: auto;
+
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+
+
+}
+
+.david-mat {
+    display: block;
+    margin: auto;
+}
+
+
+
+.before-info-man {
+    
+
+}
+
+.dev {
+    
+
+}
+
+#center-button {
+    text-align: center;
+}
+
+.filter{
+    /* margin: 50px 10px; */
+    background-color: rgb(29, 26, 26);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.filter:focus{
+    background-color: greenyellow;
+    color: black;
+}
+
+
+
+.crossingleg {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+.Neque {
+    font-size: 20px;
+    margin: 20px auto;
+    word-spacing: normal;
+    -ms-text-size-adjust: auto;
+}
+
+#button-5 {
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    height: 140px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+
+#button-6 {
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    height: 140px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+#button-7 {
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    height: 140px;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+#button-8 {
+    background-color: black;
+    color: whitesmoke;
+    width: 250px;
+    height: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.award {
+    text-align: left;
+    font-size: 50px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.view {
+    text-align: right;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    color: yellowgreen;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+tr {
+    border-bottom: 1px solid;
+    color: rgb(160, 158, 155);
+    font-size: 20px;
+
+
+}
+
+.scroll-container2{
+    background-color: greenyellow;
+    padding: 10px ;
+    overflow: hidden;
+}
+.scroll2{
+    display: float;
+    animation: scroll forwards 10s linear infinite;
+}
+
+@keyframes scroll2 {
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+
+.site {
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+.best {
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+.motion {
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+.video {
+    margin: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+
+}
+
+
+.complete {
+    color: rgb(17, 19, 15);
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.look {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+}
+
+.project1 {
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+#p-design {
+    text-align: left;
+    font-size: 20px;
+    color: yellowgreen;
+    padding: 5px;
+    gap: 3px;
+}
+
+#button {
+    float: inline-end;
+    background-color: rgba(22, 22, 22, 0.192);
+    color: white;
+    width: 80px;
+    margin: 0;
+    border: 20px;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-right: 30px;
+    margin-top: 1px;
+    align-items: center;
+
+}
+
+#h4-brand {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    gap: 1px;
+
+}
+
+
+.project2 {
+    padding-right: 15px;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+
+#p-UX {
+    text-align: left;
+    font-size: 20px;
+    color: yellowgreen;
+    padding: 5px;
+    gap: 3px;
+}
+
+#button {
+    float: inline-end;
+    background-color: rgba(22, 22, 22, 0.192);
+    color: white;
+    width: 80px;
+    margin: 0;
+    border: 20px;
+    border-radius: 10px;
+    padding-top: 30px;
+    margin-right: 30px;
+    margin-top: 1px;
+    align-items: center;
+
+}
+
+#h4-mobile {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    gap: 1px;
+
+}
+
+.asset {
+    display: flex;
+
+}
+
+.project3 {
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    gap: 5px;
+
+}
+
+.poject4 {
+    padding-right: 15px;
+    padding-bottom: 5px;
+
+}
+
+.asset-project {
+    display: flex;
+}
+
+.project5 {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+}
+
+.project6 {
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+#click {
+    width: 500px;
+    height: 500px;
+    color: white;
+}
+
+.blog1 {
+    width: 200px;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.blog2 {
+    width: 200px;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.blog3 {
+    width: 200px;
+    height: 100px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+@media (min-width:800px) {
+    ul{
+        display: flex;
+    }
+}
